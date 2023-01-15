@@ -16,8 +16,7 @@ h2 {
   font-size: x-large;
 }
 h1,
-footer p,
-h2 {
+footer p,h2 {
   color: blueviolet;
   text-align: center;
   display: block;
@@ -43,6 +42,7 @@ article div {
   border-radius: 5px;
   padding: 10px;
   margin: 20px;
+
 }
 footer p {
   font-weight: bold;
@@ -54,3 +54,6 @@ footer p {
   box-shadow: 5px pink;
   transition: ;*/
 }
+
+.box{
+    height: 100%;}
