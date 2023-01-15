@@ -1,0 +1,56 @@
+body {
+  background-color: darkslategrey;
+  font-family: monospace, sans-serif;
+}
+p {
+  text-align: center;
+  display: block;
+}
+
+h2 {
+  border: 1.5px solid white;
+  border-radius: 5px;
+  position: relative;
+  top: -40px;
+  font-weight: bold;
+  font-size: x-large;
+}
+h1,
+footer p,
+h2 {
+  color: blueviolet;
+  text-align: center;
+  display: block;
+}
+
+.s1,
+.s2 {
+  border: 1.5px dashed white;
+  border-top: none;
+  margin: 10px;
+  max-width: 33%;
+  flex-grow: 1;
+}
+.a1,
+.a2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+article div {
+  background-color: blueviolet;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+}
+footer p {
+  font-weight: bold;
+  font-size: large;
+}
+/*.s1:hover,
+.s2:hover {
+    background-color: aquamarine
+  box-shadow: 5px pink;
+  transition: ;*/
+}
